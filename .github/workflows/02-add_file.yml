@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Create Test File
-        run: echo "This is a test file." > test.txt
+        run: echo "This is a test-1 file." > test.txt
 
       - name: Commit and Push Changes
         env:
