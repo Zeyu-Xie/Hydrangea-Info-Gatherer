@@ -1,5 +1,10 @@
 name: Directory Listening
-on: [ push ]
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 * * * *"
 
 jobs:
   pages-directory-listing:
