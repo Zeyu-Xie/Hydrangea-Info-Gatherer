@@ -23,5 +23,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           now=$(date +"%Y-%m-%d %H:%M:%S")
-          git commit -m "\${now}"
+          git commit -m "${now}"
           git push
