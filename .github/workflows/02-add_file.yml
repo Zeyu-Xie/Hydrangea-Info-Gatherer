@@ -15,6 +15,21 @@ jobs:
       - name: Create Test File
         run: echo "This is a test-1 file." > test.txt
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.11.5" # Python Version
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Python script
+        run: python src/baidu_hot_search.py
+
+
+
       - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
