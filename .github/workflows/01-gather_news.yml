@@ -1,4 +1,4 @@
-name: Add Test File
+name: Gather News
 on:
   push:
     branches:
@@ -12,9 +12,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Create Test File
-        run: echo "This is a test-1 file." > test.txt
-
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -27,8 +24,6 @@ jobs:
 
       - name: Run Python script
         run: python src/baidu_hot_search.py
-
-
 
       - name: Commit and Push Changes
         env:
