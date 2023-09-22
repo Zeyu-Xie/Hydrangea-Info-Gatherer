@@ -1,4 +1,4 @@
-name: directory-listing
+name: Directory Listening
 on: [ push ]
 
 jobs:
