@@ -48,6 +48,10 @@ for item in hot_searches.find_all("div", class_="category-wrap_iQLoo horizontal_
 
 print(output)
 
-with open(f"data/Baidu_Hot_Search/{datetime.now()}.txt", "w") as file: 
+date=datetime.now()
+fileName=f"data/Baidu_Hot_Search/{date}.txt"
+_fileName=fileName.replace(" ","_")
+
+with open(_fileName, "w") as file: 
     file.write(output)
     file.close()
