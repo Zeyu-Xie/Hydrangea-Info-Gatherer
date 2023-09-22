@@ -1,9 +1,8 @@
-name: Add File
+name: Add Test File
 on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   add_test_file:
@@ -13,13 +12,15 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Create Test File
+        run: echo "This is a test file." > test.txt
+
       - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data
-          now = $(date +"%Y-%m-%d %H:%M:%S")
-          git commit -m "\${now}"
+          git add test.txt
+          git commit -m "Add test.txt file"
           git push
