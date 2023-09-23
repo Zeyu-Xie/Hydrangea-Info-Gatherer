@@ -1,9 +1,9 @@
-name: Gather News
+name: Hydrangea Info Gatherer
 on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "16 * * * *"
 
 jobs:
   add_test_file:

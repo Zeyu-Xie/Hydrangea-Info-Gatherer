@@ -20,7 +20,7 @@ print("Created By Beautiful Soup")
 print("\n")
 
 index = 0
-output=""
+output = ""
 
 for item in hot_searches.find_all("div", class_="category-wrap_iQLoo horizontal_1eKyQ"):
 
@@ -39,19 +39,23 @@ for item in hot_searches.find_all("div", class_="category-wrap_iQLoo horizontal_
     _hot_word_url = item.find("a", class_="img-wrapper_29V76")
     hot_word_url = _hot_word_url.get("href").strip()
 
-    output+="No. "+str(index)+"\n"
-    output+="- Title: "+hot_word_title+"\n"
-    output+="- Index: "+hot_word_index+"\n"
-    output+="- Content: "+hot_word_content+"\n"
-    output+="- URL: "+hot_word_url+"\n"
-    output+="\n"
+    output += "No. "+str(index)+"\n"
+    output += "- Title: "+hot_word_title+"\n"
+    output += "- Index: "+hot_word_index+"\n"
+    output += "- Content: "+hot_word_content+"\n"
+    output += "- URL: "+hot_word_url+"\n"
+    output += "\n"
 
 print(output)
 
-date=datetime.now()
-fileName=f"data/Baidu_Hot_Search/{date}.txt"
-_fileName=fileName.replace(" ","_")
+date = datetime.now()
+fileName = f"data/Baidu_Hot_Search/logs/{date}.txt"
+_fileName = fileName.replace(" ", "_")
 
-with open(_fileName, "w") as file: 
+with open(_fileName, "w") as file:
+    file.write(output)
+    file.close()
+
+with open("data/Baidu_Hot_Search/latest.txt", "w") as file:
     file.write(output)
     file.close()
