@@ -3,7 +3,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: "16 * * * *"
+    - cron: "0 * * * *"
 
 jobs:
   add_test_file:
