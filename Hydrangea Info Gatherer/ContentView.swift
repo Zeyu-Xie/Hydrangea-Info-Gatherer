@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var content = ""
     @State private var source = "https://zeyu-xie.github.io/Hydrangea-Info-Gatherer/data/Baidu_Hot_Search/latest.txt"
     
     let num_pattern="- No.*? -"
@@ -28,15 +27,30 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ScrollView {
-                Text(content)
-            }
-        }
-        .padding()
-        .onAppear {
-            getLatestNews()
-        }
-        VStack {
-            ScrollView {
+                VStack(alignment: .leading) {
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text("Hydrangea Info Gatherer").font(.title)
+                            Text("")
+                            Link("- Made by Acan", destination: URL(string: "https://zeyu-xie.github.io/Acan")!)
+                            Text("")
+                            Button("Resresh") {
+                                getLatestNews()
+                            }
+                            Text("")
+                        }
+                        Spacer()
+                        VStack {
+                            Image("Baidu").resizable().aspectRatio(contentMode: .fit).frame(height: 60)
+                            
+                            Link("Source: Baidu", destination: URL(string: "https://baidu.com")!)
+                            Spacer()
+                        }.padding()
+                        Spacer()
+                    }
+                    Divider()
+                }.padding()
+                
                 VStack(alignment: .leading) {
                     ForEach(0..<count, id: \.self) { num in
                         
@@ -49,14 +63,18 @@ struct ContentView: View {
                         let _content = content_contents[num].dropFirst(11).dropLast(2)
                         
                         let _url = url_contents[num].dropFirst(7).dropLast(2)
-                                            
+                        
                         Link(_num+". "+_title, destination: URL(string: String(_url))!)
                         Text(_content)
                         Text("")
+                        Divider()
                     }
-                }
+                }.padding()
             }
-        }
+        }.padding()
+            .onAppear {
+                getLatestNews()
+            }
     }
     
     func getLatestNews() {
@@ -74,7 +92,6 @@ struct ContentView: View {
                             content_contents=fitPattern(res: responseString, pattern: content_pattern)
                             url_contents=fitPattern(res: responseString, pattern: url_pattern)
                             count=num_contents.count
-                            print(type(of: num_contents[0]))
                         }
                     }
                 }
@@ -85,7 +102,7 @@ struct ContentView: View {
     
     func fitPattern (res: String, pattern: String) -> [String] {
         do {
-            content=res
+            let content=res
             
             let regex = try NSRegularExpression(pattern: pattern, options: [])
             let range = NSRange(content.startIndex..<content.endIndex, in: content)
