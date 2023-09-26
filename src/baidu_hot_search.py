@@ -39,11 +39,11 @@ for item in hot_searches.find_all("div", class_="category-wrap_iQLoo horizontal_
     _hot_word_url = item.find("a", class_="img-wrapper_29V76")
     hot_word_url = _hot_word_url.get("href").strip()
 
-    output += "No. "+str(index)+"\n"
-    output += "- Title: "+hot_word_title+"\n"
-    output += "- Index: "+hot_word_index+"\n"
-    output += "- Content: "+hot_word_content+"\n"
-    output += "- URL: "+hot_word_url+"\n"
+    output += "- No. "+str(index)+" -\n"
+    output += "- Title: "+hot_word_title+" -\n"
+    output += "- Index: "+hot_word_index+" -\n"
+    output += "- Content: "+hot_word_content+" -\n"
+    output += "- URL: "+hot_word_url+" -\n"
     output += "\n"
 
 print(output)
