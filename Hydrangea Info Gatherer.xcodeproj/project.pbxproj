@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF4143962AC28332009D2C7A /* Hydrangea_Info_GathererApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4143952AC28332009D2C7A /* Hydrangea_Info_GathererApp.swift */; };
+		FF4143982AC28332009D2C7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4143972AC28332009D2C7A /* ContentView.swift */; };
+		FF41439A2AC28333009D2C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4143992AC28333009D2C7A /* Assets.xcassets */; };
+		FF41439D2AC28333009D2C7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF41439C2AC28333009D2C7A /* Preview Assets.xcassets */; };
+		FF4143A82AC28333009D2C7A /* Hydrangea_Info_GathererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4143A72AC28333009D2C7A /* Hydrangea_Info_GathererTests.swift */; };
+		FF4143B22AC28333009D2C7A /* Hydrangea_Info_GathererUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4143B12AC28333009D2C7A /* Hydrangea_Info_GathererUITests.swift */; };
+		FF4143B42AC28333009D2C7A /* Hydrangea_Info_GathererUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4143B32AC28333009D2C7A /* Hydrangea_Info_GathererUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF4143A42AC28333009D2C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF41438A2AC28332009D2C7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4143912AC28332009D2C7A;
+			remoteInfo = "Hydrangea Info Gatherer";
+		};
+		FF4143AE2AC28333009D2C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF41438A2AC28332009D2C7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4143912AC28332009D2C7A;
+			remoteInfo = "Hydrangea Info Gatherer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF4143922AC28332009D2C7A /* Hydrangea Info Gatherer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hydrangea Info Gatherer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4143952AC28332009D2C7A /* Hydrangea_Info_GathererApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Info_GathererApp.swift; sourceTree = "<group>"; };
+		FF4143972AC28332009D2C7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF4143992AC28333009D2C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF41439C2AC28333009D2C7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF41439E2AC28333009D2C7A /* Hydrangea_Info_Gatherer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hydrangea_Info_Gatherer.entitlements; sourceTree = "<group>"; };
+		FF4143A32AC28333009D2C7A /* Hydrangea Info GathererTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hydrangea Info GathererTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4143A72AC28333009D2C7A /* Hydrangea_Info_GathererTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Info_GathererTests.swift; sourceTree = "<group>"; };
+		FF4143AD2AC28333009D2C7A /* Hydrangea Info GathererUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hydrangea Info GathererUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4143B12AC28333009D2C7A /* Hydrangea_Info_GathererUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Info_GathererUITests.swift; sourceTree = "<group>"; };
+		FF4143B32AC28333009D2C7A /* Hydrangea_Info_GathererUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Info_GathererUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF41438F2AC28332009D2C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4143A02AC28333009D2C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4143AA2AC28333009D2C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4143892AC28332009D2C7A = {
+			isa = PBXGroup;
+			children = (
+				FF4143942AC28332009D2C7A /* Hydrangea Info Gatherer */,
+				FF4143A62AC28333009D2C7A /* Hydrangea Info GathererTests */,
+				FF4143B02AC28333009D2C7A /* Hydrangea Info GathererUITests */,
+				FF4143932AC28332009D2C7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4143932AC28332009D2C7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4143922AC28332009D2C7A /* Hydrangea Info Gatherer.app */,
+				FF4143A32AC28333009D2C7A /* Hydrangea Info GathererTests.xctest */,
+				FF4143AD2AC28333009D2C7A /* Hydrangea Info GathererUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4143942AC28332009D2C7A /* Hydrangea Info Gatherer */ = {
+			isa = PBXGroup;
+			children = (
+				FF4143952AC28332009D2C7A /* Hydrangea_Info_GathererApp.swift */,
+				FF4143972AC28332009D2C7A /* ContentView.swift */,
+				FF4143992AC28333009D2C7A /* Assets.xcassets */,
+				FF41439E2AC28333009D2C7A /* Hydrangea_Info_Gatherer.entitlements */,
+				FF41439B2AC28333009D2C7A /* Preview Content */,
+			);
+			path = "Hydrangea Info Gatherer";
+			sourceTree = "<group>";
+		};
+		FF41439B2AC28333009D2C7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF41439C2AC28333009D2C7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF4143A62AC28333009D2C7A /* Hydrangea Info GathererTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4143A72AC28333009D2C7A /* Hydrangea_Info_GathererTests.swift */,
+			);
+			path = "Hydrangea Info GathererTests";
+			sourceTree = "<group>";
+		};
+		FF4143B02AC28333009D2C7A /* Hydrangea Info GathererUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4143B12AC28333009D2C7A /* Hydrangea_Info_GathererUITests.swift */,
+				FF4143B32AC28333009D2C7A /* Hydrangea_Info_GathererUITestsLaunchTests.swift */,
+			);
+			path = "Hydrangea Info GathererUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4143912AC28332009D2C7A /* Hydrangea Info Gatherer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4143B72AC28333009D2C7A /* Build configuration list for PBXNativeTarget "Hydrangea Info Gatherer" */;
+			buildPhases = (
+				FF41438E2AC28332009D2C7A /* Sources */,
+				FF41438F2AC28332009D2C7A /* Frameworks */,
+				FF4143902AC28332009D2C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hydrangea Info Gatherer";
+			productName = "Hydrangea Info Gatherer";
+			productReference = FF4143922AC28332009D2C7A /* Hydrangea Info Gatherer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF4143A22AC28333009D2C7A /* Hydrangea Info GathererTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4143BA2AC28333009D2C7A /* Build configuration list for PBXNativeTarget "Hydrangea Info GathererTests" */;
+			buildPhases = (
+				FF41439F2AC28333009D2C7A /* Sources */,
+				FF4143A02AC28333009D2C7A /* Frameworks */,
+				FF4143A12AC28333009D2C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4143A52AC28333009D2C7A /* PBXTargetDependency */,
+			);
+			name = "Hydrangea Info GathererTests";
+			productName = "Hydrangea Info GathererTests";
+			productReference = FF4143A32AC28333009D2C7A /* Hydrangea Info GathererTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF4143AC2AC28333009D2C7A /* Hydrangea Info GathererUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4143BD2AC28333009D2C7A /* Build configuration list for PBXNativeTarget "Hydrangea Info GathererUITests" */;
+			buildPhases = (
+				FF4143A92AC28333009D2C7A /* Sources */,
+				FF4143AA2AC28333009D2C7A /* Frameworks */,
+				FF4143AB2AC28333009D2C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4143AF2AC28333009D2C7A /* PBXTargetDependency */,
+			);
+			name = "Hydrangea Info GathererUITests";
+			productName = "Hydrangea Info GathererUITests";
+			productReference = FF4143AD2AC28333009D2C7A /* Hydrangea Info GathererUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF41438A2AC28332009D2C7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FF4143912AC28332009D2C7A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FF4143A22AC28333009D2C7A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FF4143912AC28332009D2C7A;
+					};
+					FF4143AC2AC28333009D2C7A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FF4143912AC28332009D2C7A;
+					};
+				};
+			};
+			buildConfigurationList = FF41438D2AC28332009D2C7A /* Build configuration list for PBXProject "Hydrangea Info Gatherer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4143892AC28332009D2C7A;
+			productRefGroup = FF4143932AC28332009D2C7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4143912AC28332009D2C7A /* Hydrangea Info Gatherer */,
+				FF4143A22AC28333009D2C7A /* Hydrangea Info GathererTests */,
+				FF4143AC2AC28333009D2C7A /* Hydrangea Info GathererUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4143902AC28332009D2C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF41439D2AC28333009D2C7A /* Preview Assets.xcassets in Resources */,
+				FF41439A2AC28333009D2C7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4143A12AC28333009D2C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4143AB2AC28333009D2C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF41438E2AC28332009D2C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4143982AC28332009D2C7A /* ContentView.swift in Sources */,
+				FF4143962AC28332009D2C7A /* Hydrangea_Info_GathererApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF41439F2AC28333009D2C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4143A82AC28333009D2C7A /* Hydrangea_Info_GathererTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4143A92AC28333009D2C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4143B42AC28333009D2C7A /* Hydrangea_Info_GathererUITestsLaunchTests.swift in Sources */,
+				FF4143B22AC28333009D2C7A /* Hydrangea_Info_GathererUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF4143A52AC28333009D2C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4143912AC28332009D2C7A /* Hydrangea Info Gatherer */;
+			targetProxy = FF4143A42AC28333009D2C7A /* PBXContainerItemProxy */;
+		};
+		FF4143AF2AC28333009D2C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4143912AC28332009D2C7A /* Hydrangea Info Gatherer */;
+			targetProxy = FF4143AE2AC28333009D2C7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF4143B52AC28333009D2C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF4143B62AC28333009D2C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FF4143B82AC28333009D2C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hydrangea Info Gatherer/Hydrangea_Info_Gatherer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hydrangea Info Gatherer/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Hydrangea-Info-Gatherer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF4143B92AC28333009D2C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hydrangea Info Gatherer/Hydrangea_Info_Gatherer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hydrangea Info Gatherer/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Hydrangea-Info-Gatherer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FF4143BB2AC28333009D2C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Hydrangea-Info-GathererTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydrangea Info Gatherer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hydrangea Info Gatherer";
+			};
+			name = Debug;
+		};
+		FF4143BC2AC28333009D2C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Hydrangea-Info-GathererTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydrangea Info Gatherer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hydrangea Info Gatherer";
+			};
+			name = Release;
+		};
+		FF4143BE2AC28333009D2C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Hydrangea-Info-GathererUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Hydrangea Info Gatherer";
+			};
+			name = Debug;
+		};
+		FF4143BF2AC28333009D2C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Hydrangea-Info-GathererUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Hydrangea Info Gatherer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF41438D2AC28332009D2C7A /* Build configuration list for PBXProject "Hydrangea Info Gatherer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4143B52AC28333009D2C7A /* Debug */,
+				FF4143B62AC28333009D2C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4143B72AC28333009D2C7A /* Build configuration list for PBXNativeTarget "Hydrangea Info Gatherer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4143B82AC28333009D2C7A /* Debug */,
+				FF4143B92AC28333009D2C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4143BA2AC28333009D2C7A /* Build configuration list for PBXNativeTarget "Hydrangea Info GathererTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4143BB2AC28333009D2C7A /* Debug */,
+				FF4143BC2AC28333009D2C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4143BD2AC28333009D2C7A /* Build configuration list for PBXNativeTarget "Hydrangea Info GathererUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4143BE2AC28333009D2C7A /* Debug */,
+				FF4143BF2AC28333009D2C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF41438A2AC28332009D2C7A /* Project object */;
+}
