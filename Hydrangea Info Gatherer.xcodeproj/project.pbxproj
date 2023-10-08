@@ -14,7 +14,6 @@
 		FF4143A82AC28333009D2C7A /* Hydrangea_Info_GathererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4143A72AC28333009D2C7A /* Hydrangea_Info_GathererTests.swift */; };
 		FF4143B22AC28333009D2C7A /* Hydrangea_Info_GathererUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4143B12AC28333009D2C7A /* Hydrangea_Info_GathererUITests.swift */; };
 		FF4143B42AC28333009D2C7A /* Hydrangea_Info_GathererUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4143B32AC28333009D2C7A /* Hydrangea_Info_GathererUITestsLaunchTests.swift */; };
-		FFF7C2A32AC55A3B008DAE0A /* BaiduNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF7C2A22AC55A3B008DAE0A /* BaiduNews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 		FF4143AD2AC28333009D2C7A /* Hydrangea Info GathererUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hydrangea Info GathererUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4143B12AC28333009D2C7A /* Hydrangea_Info_GathererUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Info_GathererUITests.swift; sourceTree = "<group>"; };
 		FF4143B32AC28333009D2C7A /* Hydrangea_Info_GathererUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Info_GathererUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FFF7C2A22AC55A3B008DAE0A /* BaiduNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduNews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +97,6 @@
 			children = (
 				FF4143952AC28332009D2C7A /* Hydrangea_Info_GathererApp.swift */,
 				FF4143972AC28332009D2C7A /* ContentView.swift */,
-				FFF7C2A12AC55A1C008DAE0A /* View */,
 				FF4143992AC28333009D2C7A /* Assets.xcassets */,
 				FF41439E2AC28333009D2C7A /* Hydrangea_Info_Gatherer.entitlements */,
 				FF41439B2AC28333009D2C7A /* Preview Content */,
@@ -130,14 +127,6 @@
 				FF4143B32AC28333009D2C7A /* Hydrangea_Info_GathererUITestsLaunchTests.swift */,
 			);
 			path = "Hydrangea Info GathererUITests";
-			sourceTree = "<group>";
-		};
-		FFF7C2A12AC55A1C008DAE0A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FFF7C2A22AC55A3B008DAE0A /* BaiduNews.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +261,6 @@
 			files = (
 				FF4143982AC28332009D2C7A /* ContentView.swift in Sources */,
 				FF4143962AC28332009D2C7A /* Hydrangea_Info_GathererApp.swift in Sources */,
-				FFF7C2A32AC55A3B008DAE0A /* BaiduNews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
