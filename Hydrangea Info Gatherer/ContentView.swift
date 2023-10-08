@@ -45,7 +45,7 @@ struct ContentView: View {
                     Link(destination: URL(string: "https://zeyu-xie.github.io/Acan")!) {
                         Text("- Made by Acan")
                     }.padding(.bottom)
-                    Link(destination: URL(string: "https://zeyu-xie.github.io/Hydrangea-Info-Gatherer/tree/iOS")!) {
+                    Link(destination: URL(string: "https://github.com/zeyu-xie/Hydrangea-Info-Gatherer/tree/iOS")!) {
                         Text("- GitHub")
                     }
                     Divider()
