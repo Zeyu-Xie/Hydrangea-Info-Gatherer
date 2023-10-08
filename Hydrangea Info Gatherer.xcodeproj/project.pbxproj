@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFC27F8D2AD2DA4200FC3005 /* Hydrangea_Info_GathererApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC27F8C2AD2DA4200FC3005 /* Hydrangea_Info_GathererApp.swift */; };
+		FFC27F8F2AD2DA4200FC3005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC27F8E2AD2DA4200FC3005 /* ContentView.swift */; };
+		FFC27F912AD2DA4300FC3005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC27F902AD2DA4300FC3005 /* Assets.xcassets */; };
+		FFC27F942AD2DA4300FC3005 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC27F932AD2DA4300FC3005 /* Preview Assets.xcassets */; };
+		FFC27F9E2AD2DA4300FC3005 /* Hydrangea_Info_GathererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC27F9D2AD2DA4300FC3005 /* Hydrangea_Info_GathererTests.swift */; };
+		FFC27FA82AD2DA4300FC3005 /* Hydrangea_Info_GathererUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC27FA72AD2DA4300FC3005 /* Hydrangea_Info_GathererUITests.swift */; };
+		FFC27FAA2AD2DA4300FC3005 /* Hydrangea_Info_GathererUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC27FA92AD2DA4300FC3005 /* Hydrangea_Info_GathererUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFC27F9A2AD2DA4300FC3005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFC27F812AD2DA4200FC3005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFC27F882AD2DA4200FC3005;
+			remoteInfo = "Hydrangea Info Gatherer";
+		};
+		FFC27FA42AD2DA4300FC3005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFC27F812AD2DA4200FC3005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFC27F882AD2DA4200FC3005;
+			remoteInfo = "Hydrangea Info Gatherer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF7DD2502AD2DFEE00BF78EF /* Hydrangea Info Gatherer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hydrangea Info Gatherer.entitlements"; sourceTree = "<group>"; };
+		FFC27F892AD2DA4200FC3005 /* Hydrangea Info Gatherer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hydrangea Info Gatherer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC27F8C2AD2DA4200FC3005 /* Hydrangea_Info_GathererApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Info_GathererApp.swift; sourceTree = "<group>"; };
+		FFC27F8E2AD2DA4200FC3005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFC27F902AD2DA4300FC3005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFC27F932AD2DA4300FC3005 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFC27F992AD2DA4300FC3005 /* Hydrangea Info GathererTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hydrangea Info GathererTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC27F9D2AD2DA4300FC3005 /* Hydrangea_Info_GathererTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Info_GathererTests.swift; sourceTree = "<group>"; };
+		FFC27FA32AD2DA4300FC3005 /* Hydrangea Info GathererUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hydrangea Info GathererUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC27FA72AD2DA4300FC3005 /* Hydrangea_Info_GathererUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Info_GathererUITests.swift; sourceTree = "<group>"; };
+		FFC27FA92AD2DA4300FC3005 /* Hydrangea_Info_GathererUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Info_GathererUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFC27F862AD2DA4200FC3005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC27F962AD2DA4300FC3005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC27FA02AD2DA4300FC3005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFC27F802AD2DA4200FC3005 = {
+			isa = PBXGroup;
+			children = (
+				FFC27F8B2AD2DA4200FC3005 /* Hydrangea Info Gatherer */,
+				FFC27F9C2AD2DA4300FC3005 /* Hydrangea Info GathererTests */,
+				FFC27FA62AD2DA4300FC3005 /* Hydrangea Info GathererUITests */,
+				FFC27F8A2AD2DA4200FC3005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFC27F8A2AD2DA4200FC3005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFC27F892AD2DA4200FC3005 /* Hydrangea Info Gatherer.app */,
+				FFC27F992AD2DA4300FC3005 /* Hydrangea Info GathererTests.xctest */,
+				FFC27FA32AD2DA4300FC3005 /* Hydrangea Info GathererUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFC27F8B2AD2DA4200FC3005 /* Hydrangea Info Gatherer */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DD2502AD2DFEE00BF78EF /* Hydrangea Info Gatherer.entitlements */,
+				FFC27F8C2AD2DA4200FC3005 /* Hydrangea_Info_GathererApp.swift */,
+				FFC27F8E2AD2DA4200FC3005 /* ContentView.swift */,
+				FFC27F902AD2DA4300FC3005 /* Assets.xcassets */,
+				FFC27F922AD2DA4300FC3005 /* Preview Content */,
+			);
+			path = "Hydrangea Info Gatherer";
+			sourceTree = "<group>";
+		};
+		FFC27F922AD2DA4300FC3005 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFC27F932AD2DA4300FC3005 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFC27F9C2AD2DA4300FC3005 /* Hydrangea Info GathererTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFC27F9D2AD2DA4300FC3005 /* Hydrangea_Info_GathererTests.swift */,
+			);
+			path = "Hydrangea Info GathererTests";
+			sourceTree = "<group>";
+		};
+		FFC27FA62AD2DA4300FC3005 /* Hydrangea Info GathererUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFC27FA72AD2DA4300FC3005 /* Hydrangea_Info_GathererUITests.swift */,
+				FFC27FA92AD2DA4300FC3005 /* Hydrangea_Info_GathererUITestsLaunchTests.swift */,
+			);
+			path = "Hydrangea Info GathererUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFC27F882AD2DA4200FC3005 /* Hydrangea Info Gatherer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC27FAD2AD2DA4300FC3005 /* Build configuration list for PBXNativeTarget "Hydrangea Info Gatherer" */;
+			buildPhases = (
+				FFC27F852AD2DA4200FC3005 /* Sources */,
+				FFC27F862AD2DA4200FC3005 /* Frameworks */,
+				FFC27F872AD2DA4200FC3005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hydrangea Info Gatherer";
+			productName = "Hydrangea Info Gatherer";
+			productReference = FFC27F892AD2DA4200FC3005 /* Hydrangea Info Gatherer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFC27F982AD2DA4300FC3005 /* Hydrangea Info GathererTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC27FB02AD2DA4300FC3005 /* Build configuration list for PBXNativeTarget "Hydrangea Info GathererTests" */;
+			buildPhases = (
+				FFC27F952AD2DA4300FC3005 /* Sources */,
+				FFC27F962AD2DA4300FC3005 /* Frameworks */,
+				FFC27F972AD2DA4300FC3005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFC27F9B2AD2DA4300FC3005 /* PBXTargetDependency */,
+			);
+			name = "Hydrangea Info GathererTests";
+			productName = "Hydrangea Info GathererTests";
+			productReference = FFC27F992AD2DA4300FC3005 /* Hydrangea Info GathererTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFC27FA22AD2DA4300FC3005 /* Hydrangea Info GathererUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC27FB32AD2DA4300FC3005 /* Build configuration list for PBXNativeTarget "Hydrangea Info GathererUITests" */;
+			buildPhases = (
+				FFC27F9F2AD2DA4300FC3005 /* Sources */,
+				FFC27FA02AD2DA4300FC3005 /* Frameworks */,
+				FFC27FA12AD2DA4300FC3005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFC27FA52AD2DA4300FC3005 /* PBXTargetDependency */,
+			);
+			name = "Hydrangea Info GathererUITests";
+			productName = "Hydrangea Info GathererUITests";
+			productReference = FFC27FA32AD2DA4300FC3005 /* Hydrangea Info GathererUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFC27F812AD2DA4200FC3005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FFC27F882AD2DA4200FC3005 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FFC27F982AD2DA4300FC3005 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FFC27F882AD2DA4200FC3005;
+					};
+					FFC27FA22AD2DA4300FC3005 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FFC27F882AD2DA4200FC3005;
+					};
+				};
+			};
+			buildConfigurationList = FFC27F842AD2DA4200FC3005 /* Build configuration list for PBXProject "Hydrangea Info Gatherer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFC27F802AD2DA4200FC3005;
+			productRefGroup = FFC27F8A2AD2DA4200FC3005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFC27F882AD2DA4200FC3005 /* Hydrangea Info Gatherer */,
+				FFC27F982AD2DA4300FC3005 /* Hydrangea Info GathererTests */,
+				FFC27FA22AD2DA4300FC3005 /* Hydrangea Info GathererUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFC27F872AD2DA4200FC3005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC27F942AD2DA4300FC3005 /* Preview Assets.xcassets in Resources */,
+				FFC27F912AD2DA4300FC3005 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC27F972AD2DA4300FC3005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC27FA12AD2DA4300FC3005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFC27F852AD2DA4200FC3005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC27F8F2AD2DA4200FC3005 /* ContentView.swift in Sources */,
+				FFC27F8D2AD2DA4200FC3005 /* Hydrangea_Info_GathererApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC27F952AD2DA4300FC3005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC27F9E2AD2DA4300FC3005 /* Hydrangea_Info_GathererTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC27F9F2AD2DA4300FC3005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC27FAA2AD2DA4300FC3005 /* Hydrangea_Info_GathererUITestsLaunchTests.swift in Sources */,
+				FFC27FA82AD2DA4300FC3005 /* Hydrangea_Info_GathererUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFC27F9B2AD2DA4300FC3005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFC27F882AD2DA4200FC3005 /* Hydrangea Info Gatherer */;
+			targetProxy = FFC27F9A2AD2DA4300FC3005 /* PBXContainerItemProxy */;
+		};
+		FFC27FA52AD2DA4300FC3005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFC27F882AD2DA4200FC3005 /* Hydrangea Info Gatherer */;
+			targetProxy = FFC27FA42AD2DA4300FC3005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFC27FAB2AD2DA4300FC3005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFC27FAC2AD2DA4300FC3005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFC27FAE2AD2DA4300FC3005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hydrangea Info Gatherer/Hydrangea Info Gatherer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hydrangea Info Gatherer/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Hydrangea-Info-Gatherer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFC27FAF2AD2DA4300FC3005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hydrangea Info Gatherer/Hydrangea Info Gatherer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hydrangea Info Gatherer/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Hydrangea-Info-Gatherer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFC27FB12AD2DA4300FC3005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Hydrangea-Info-GathererTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydrangea Info Gatherer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hydrangea Info Gatherer";
+			};
+			name = Debug;
+		};
+		FFC27FB22AD2DA4300FC3005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Hydrangea-Info-GathererTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydrangea Info Gatherer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hydrangea Info Gatherer";
+			};
+			name = Release;
+		};
+		FFC27FB42AD2DA4300FC3005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Hydrangea-Info-GathererUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hydrangea Info Gatherer";
+			};
+			name = Debug;
+		};
+		FFC27FB52AD2DA4300FC3005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Hydrangea-Info-GathererUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hydrangea Info Gatherer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFC27F842AD2DA4200FC3005 /* Build configuration list for PBXProject "Hydrangea Info Gatherer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC27FAB2AD2DA4300FC3005 /* Debug */,
+				FFC27FAC2AD2DA4300FC3005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC27FAD2AD2DA4300FC3005 /* Build configuration list for PBXNativeTarget "Hydrangea Info Gatherer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC27FAE2AD2DA4300FC3005 /* Debug */,
+				FFC27FAF2AD2DA4300FC3005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC27FB02AD2DA4300FC3005 /* Build configuration list for PBXNativeTarget "Hydrangea Info GathererTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC27FB12AD2DA4300FC3005 /* Debug */,
+				FFC27FB22AD2DA4300FC3005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC27FB32AD2DA4300FC3005 /* Build configuration list for PBXNativeTarget "Hydrangea Info GathererUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC27FB42AD2DA4300FC3005 /* Debug */,
+				FFC27FB52AD2DA4300FC3005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFC27F812AD2DA4200FC3005 /* Project object */;
+}
