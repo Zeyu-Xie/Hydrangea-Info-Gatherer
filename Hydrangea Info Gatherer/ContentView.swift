@@ -38,7 +38,7 @@ struct ContentView: View {
         
         VStack {
             
-            ScrollView {
+            ScrollView(showsIndicators: false) {
                 
                 VStack(alignment: .leading) {
                     Text("Hydrangea Info Gatherer").font(.largeTitle).padding(.bottom)
