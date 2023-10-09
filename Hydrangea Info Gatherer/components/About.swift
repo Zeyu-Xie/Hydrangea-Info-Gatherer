@@ -9,7 +9,7 @@ import SwiftUI
 
 struct About: View {
     var body: some View {
-        ScrollView
+        ScrollView(showsIndicators: false)
         {
             VStack {
             VStack(alignment: .leading, spacing: 16) {
