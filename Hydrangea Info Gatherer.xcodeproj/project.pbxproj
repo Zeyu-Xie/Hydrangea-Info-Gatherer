@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FFB749742AD429D000A6014F /* BaiduNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB749732AD429D000A6014F /* BaiduNews.swift */; };
+		FFB749762AD42FB100A6014F /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB749752AD42FB100A6014F /* About.swift */; };
 		FFC27F8D2AD2DA4200FC3005 /* Hydrangea_Info_GathererApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC27F8C2AD2DA4200FC3005 /* Hydrangea_Info_GathererApp.swift */; };
 		FFC27F8F2AD2DA4200FC3005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC27F8E2AD2DA4200FC3005 /* ContentView.swift */; };
 		FFC27F912AD2DA4300FC3005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC27F902AD2DA4300FC3005 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		FF7DD2502AD2DFEE00BF78EF /* Hydrangea Info Gatherer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hydrangea Info Gatherer.entitlements"; sourceTree = "<group>"; };
+		FFB749732AD429D000A6014F /* BaiduNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduNews.swift; sourceTree = "<group>"; };
+		FFB749752AD42FB100A6014F /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		FFC27F892AD2DA4200FC3005 /* Hydrangea Info Gatherer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hydrangea Info Gatherer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC27F8C2AD2DA4200FC3005 /* Hydrangea_Info_GathererApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Info_GathererApp.swift; sourceTree = "<group>"; };
 		FFC27F8E2AD2DA4200FC3005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FFB749722AD429AA00A6014F /* components */ = {
+			isa = PBXGroup;
+			children = (
+				FFB749732AD429D000A6014F /* BaiduNews.swift */,
+				FFB749752AD42FB100A6014F /* About.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		FFC27F802AD2DA4200FC3005 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +108,7 @@
 		FFC27F8B2AD2DA4200FC3005 /* Hydrangea Info Gatherer */ = {
 			isa = PBXGroup;
 			children = (
+				FFB749722AD429AA00A6014F /* components */,
 				FF7DD2502AD2DFEE00BF78EF /* Hydrangea Info Gatherer.entitlements */,
 				FFC27F8C2AD2DA4200FC3005 /* Hydrangea_Info_GathererApp.swift */,
 				FFC27F8E2AD2DA4200FC3005 /* ContentView.swift */,
@@ -260,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFC27F8F2AD2DA4200FC3005 /* ContentView.swift in Sources */,
+				FFB749762AD42FB100A6014F /* About.swift in Sources */,
 				FFC27F8D2AD2DA4200FC3005 /* Hydrangea_Info_GathererApp.swift in Sources */,
+				FFB749742AD429D000A6014F /* BaiduNews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
