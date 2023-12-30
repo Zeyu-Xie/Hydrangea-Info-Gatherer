@@ -1,0 +1,22 @@
+<!-- File starts -->
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<!-- Channel starts -->
+<channel>
+<!-- Title, description, icon and link -->
+<title><![CDATA[ Baidu Hot Search ]]></title>
+<description><![CDATA[ <![CDATA[ Baidu Hot Search from Hydrangea Info Gatherer ]]></description>
+<image>
+<url>https://zeyu-xie.github.io/Hydrangea-Info-Gatherer/hydrangea_2048.png</url>
+<title>Baidu Hot Search</title>
+<link>https://zeyu-xie.github.io/Hydrangea-Info-Gatherer/data/Baidu_Hot_Search</link>
+</image>
+<link>https://zeyu-xie.github.io/Hydrangea-Info-Gatherer/data/Baidu_Hot_Search</link>
+<!-- Properties -->
+<language><![CDATA[ zh-Hans ]]></language>
+<ttl>60</ttl>
+<!-- Contact and copyright info -->
+<generator>Hydrangea Info Gatherer</generator>
+<managingEditor><![CDATA[ xie.zeyu20@gmail.com ]]></managingEditor>
+<copyright><![CDATA[ Copyright ©️ 2021 Baidu. All rights reserved. ]]></copyright>
