@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Get Bilibili Following List
+// @name         Get Bilibili User Info
 // @namespace    https://github.com/Zeyu-Xie/Hydrangea-Info-Gatherer
 // @version      1.0
-// @description  Generate a file showing your bilibili following list.
+// @description  Generate a file showing your bilibili user info.
 // @author       Acan
 // @match        https://space.bilibili.com/*
 // @grant        none
