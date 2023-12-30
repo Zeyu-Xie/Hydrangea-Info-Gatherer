@@ -48,8 +48,17 @@ for item in hot_searches.find_all("div", class_="category-wrap_iQLoo horizontal_
     hot_word_index = _hot_word_index.text.strip()
 
     _hot_word_content = item.find("div", class_="hot-desc_1m_jR large_nSuFU")
-    hot_word_content = _hot_word_content.get_text("$$").split("$$")[
+    
+    # if _hot_word_content is None:
+    #     continue
+
+    hot_word_content = ""
+
+    try:
+        hot_word_content = _hot_word_content.get_text("$$").split("$$")[
         0].strip()
+    except:
+        print(f"ERROR <div> label not existed at index = {index}")
 
     _hot_word_url = item.find("a", class_="img-wrapper_29V76")
     hot_word_url = _hot_word_url.get("href").strip()
@@ -60,6 +69,8 @@ for item in hot_searches.find_all("div", class_="category-wrap_iQLoo horizontal_
     output += "- Content: "+hot_word_content+" -\n"
     output += "- URL: "+hot_word_url+" -\n"
     output += "\n"
+print("\n")
+
 
 # Print the output string
 print(output)
