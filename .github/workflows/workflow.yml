@@ -2,7 +2,7 @@ name: Hydrangea Info Gatherer
 on:
   push:
   workflow_dispatch:
-  schedule: 
+  schedule:
     - cron: "0 * * * *"
 
 jobs:
